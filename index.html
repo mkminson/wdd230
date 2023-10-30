@@ -4,27 +4,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Michelle Minson - WDD230 - Wev Frontend Development</title>
-    <meta name="description" content="Michelle Minson - WDD230 - course assignment portal">
-    <meta name="author" content="Michelle Minson" <link href="styles/base.css" rel="stylesheet">
+    <title>Michelle Minson - WDD230 - Web Frontend Development</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development - Michelle Minson - course assignment portal">
+    <meta name="author" content="Michelle Minson">
+
+    <link href="styles/base.css" rel="stylesheet">
     <link href="styles/larger.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=Roboto:wght@100;400&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
     <header>
-
+        <img src="images/profilepic.jpg" alt="Michelle Minson Profile" width="75" height="100">
+        <h1>Michelle Minson</h1>
     </header>
     <nav>
         <ul>
-            <li> class="active"<a href=""></a>Home</li>
-            <li><a href=""></a>Chamber</li>
-            <li><a href=""></a>Site Plan</li>
-            <li><a href=""></a>Home</li>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Site Plan</a></li>
+            <li><a href="#">Form</a></li>
         </ul>
     </nav>
     <main>
-
+        <h2>WDD 230: Web Frontend Development</h2>
+        <section>
+            <h3 class="card">Learning Activities</h3>
+            <UL>
+                <li><a href="#">Learning Activity</a></li>
+                <li><a href="#">Learning Activity</a></li>
+                <li><a href="#">Learning Activity</a></li>
+                <li><a href="#">Learning Activity</a></li>
+                <li><a href="#">Learning Activity</a></li>
+                <li><a href="#">Learning Activity</a></li>
+            </UL>
+        </section>
+        <section class="card">
+            <h3>Information</h3>
+        </section>
     </main>
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span>;
+            Michelle Minson, Utah
+        </p>
+        <p id="lastModified">
+            Last Modification:
+        </p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
 </body>
 
 </html>
