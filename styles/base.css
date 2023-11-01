@@ -10,15 +10,30 @@ body {
     font-weight: 100;
 }
 
+main {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    justify-items: center;
+}
+
 /*mobile *****************/
+
+header img {
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px rgb(35, 34, 34);
+}
+
 header,
 footer {
-    background-color: #7eb3e5;
     display: flex;
+    background-color: #0857a1;
     align-items: center;
     justify-content: center;
     padding: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.1)
+    border: 2px solid rgba(0, 0, 0, 0.1)
 }
 
 header,
@@ -28,12 +43,23 @@ footer {
     margin: 0 auto;
 }
 
+
+footer {
+    flex-direction: column;
+    color: #ffff;
+}
+
+#lastModified {
+    color: #ccd660;
+}
+
 h1 {
     font-size: 2rem;
+    color: #ffff;
 }
 
 nav {
-    background-color: #133487;
+    background-color: rgb(75, 73, 73);
     margin: 0 auto;
     max-width: 800px;
 }
@@ -58,11 +84,47 @@ nav .active {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-main {
-    justify-content: center;
-    display: grid;
+h2 {
+    margin-top: 20px;
+    padding-bottom: 10px;
+    width: 100%;
+    border-bottom: 2px solid rgb(75, 73, 73);
+    text-align: center;
+}
+
+main section {
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    justify-self: center;
+    border-radius: 10px;
 }
 
 .card {
-    align-items: center;
+    min-width: 250px;
+    box-shadow: 10px 10px 50px grey;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.card ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.card li a {
+    text-decoration: none !important;
+}
+
+.card li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h3 {
+    background-color: #0857a1;
+    padding: 10px;
+    color: #ffff;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: center;
 }
