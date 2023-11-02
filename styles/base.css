@@ -113,11 +113,13 @@ main section {
 
 .card li a {
     text-decoration: none !important;
+    color: darkblue;
 }
 
 .card li {
     padding-top: 5px;
     padding-bottom: 5px;
+    color: rgb(23, 23, 23);
 }
 
 h3 {
