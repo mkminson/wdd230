@@ -1,0 +1,42 @@
+main {
+    font-family: 'Montserrat', sans-serif;
+    color: #293035;
+}
+
+header {
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    padding: 20px;
+    font-family: 'Great Vibes', cursive;
+    background-color: #613790;
+    color: #ffff;
+}
+
+h2 {
+    font-family: 'Noto Serif', serif;
+}
+
+.color1 {
+    color: #ffff;
+    background-color: #293035;
+}
+
+.color2 {
+    color: #ffff;
+    background-color: #613790;
+}
+
+.color3 {
+    background-color: #a67bd6;
+    color: black;
+}
+
+footer {
+    color: #ffff;
+    background-color: #613790;
+    padding: 10px;
+    text-align: center;
+}
