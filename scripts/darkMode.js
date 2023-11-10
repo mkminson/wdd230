@@ -1,15 +1,18 @@
 const modeButton = document.querySelector("#mode");
 const main = document.querySelector("main");
+const body = document.body;
+const card = document.querySelector(".card"); // Select the card element
 
-modeButton.addEventListener("click", () => {
-    if (modeButton.textContent.includes("🕶️")) {
-        main.style.background = "#000";
-        main.style.color = "#fff";
+function toggleDarkMode() {
+    if (body.classList.contains("dark-mode")) {
+        body.classList.remove("dark-mode");
+        card.classList.remove("dark-mode"); // Remove the "dark-mode" class from the card
+        // Rest of your code...
+    } else {
+        body.classList.add("dark-mode");
+        card.classList.add("dark-mode");  // Add the "dark-mode" class to the card
         modeButton.textContent = "🔆";
     }
-    else {
-        main.style.background = "#eee";
-        main.style.color = "#000";
-        modeButton.textContent = "🕶️";
-    }
-});
+}
+
+modeButton.addEventListener("click", toggleDarkMode);
