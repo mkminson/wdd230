@@ -7,7 +7,7 @@ function toggleDarkMode() {
     if (body.classList.contains("dark-mode")) {
         body.classList.remove("dark-mode");
         card.classList.remove("dark-mode"); // Remove the "dark-mode" class from the card
-        // Rest of your code...
+        modeButton.textContent = "🕶️";
     } else {
         body.classList.add("dark-mode");
         card.classList.add("dark-mode");  // Add the "dark-mode" class to the card
