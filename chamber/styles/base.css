@@ -85,7 +85,7 @@ nav .active {
     padding: 1rem;
     text-align: center;
     text-decoration: none;
-    color: #fff;
+    color: black;
 }
 
 .navigation li a:hover {
@@ -179,8 +179,8 @@ h3 {
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #a6a6a6;
-    color: #613790;
+    background-color: #c9bfbf;
+    color: black;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
