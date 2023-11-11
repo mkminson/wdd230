@@ -88,7 +88,7 @@ nav .active {
 }
 
 .navigation li a:hover {
-    background-color: #8251ba;
+    background-color: #b686ec;
     color: black;
     font-weight: 700;
 }
@@ -103,7 +103,7 @@ nav .active {
 }
 
 .active {
-    background-color: #6E6E6E;
+    background-color: #8c5fbf;
 }
 
 main {
