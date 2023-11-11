@@ -41,7 +41,6 @@ nav a {
 
 nav a:hover {
     background-color: #8251ba;
-    ;
 }
 
 nav .active {
@@ -90,7 +89,7 @@ nav .active {
 
 .navigation li a:hover {
     background-color: #8251ba;
-    color: #333;
+    color: black;
     font-weight: 700;
 }
 
