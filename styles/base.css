@@ -10,11 +10,16 @@ body {
     font-weight: 100;
 }
 
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
 main {
-    display: grid;
+    /*display: grid;
     grid-template-columns: 100%;
     grid-template-rows: auto;
-    grid-gap: 20px;
+    grid-gap: 20px;*/
     justify-items: center;
 }
 
@@ -39,7 +44,7 @@ footer {
 header,
 main,
 footer {
-    max-width: 800px;
+    max-width: 960px;
     margin: 0 auto;
 }
 
@@ -61,7 +66,7 @@ h1 {
 nav {
     background-color: rgb(75, 73, 73);
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 960px;
 }
 
 nav ul {
