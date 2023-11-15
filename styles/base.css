@@ -10,16 +10,7 @@ body {
     font-weight: 100;
 }
 
-.hero img {
-    width: 100%;
-    height: auto;
-}
-
 main {
-    /*display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: auto;
-    grid-gap: 20px;*/
     justify-items: center;
 }
 
@@ -46,16 +37,6 @@ main,
 footer {
     max-width: 960px;
     margin: 0 auto;
-}
-
-
-footer {
-    flex-direction: column;
-    color: #ffff;
-}
-
-#lastModified {
-    color: #ffffff;
 }
 
 h1 {
@@ -89,6 +70,31 @@ nav .active {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
+.hero img {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.herolabel {
+    position: absolute;
+    top: 210px;
+    left: 30px;
+    background: radial-gradient(#fff, #B1D6FE);
+    border: 1px solid rgba(0, 0, 0, .5);
+    padding: 1.5rem;
+    box-shadow: 0 0 3rem #fff;
+    opacity: 0.75;
+}
+
+.herolabel p {
+    margin: 0;
+    padding: .25rem;
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
 h2 {
     margin-top: 20px;
     padding-bottom: 10px;
@@ -102,6 +108,15 @@ main section {
     border: 1px solid rgba(0, 0, 0, 0.1);
     justify-self: center;
     border-radius: 10px;
+}
+
+h3 {
+    background-color: #0857a1;
+    padding: 10px;
+    color: #ffff;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: center;
 }
 
 .card {
@@ -127,13 +142,20 @@ main section {
     color: rgb(23, 23, 23);
 }
 
-h3 {
-    background-color: #0857a1;
-    padding: 10px;
-    color: #ffff;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+.card p {
+    margin: 1rem;
     text-align: center;
+}
+
+.label {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+#visits {
+    color: rgb(23, 23, 23);
+    font-weight: bolder;
+    font-size: larger;
 }
 
 /*Dark Mode styling*/
@@ -221,4 +243,21 @@ h3.dark-mode,
 
 .active::before {
     content: "📍 ";
+}
+
+.map {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    flex-direction: column;
+    color: #ffff;
+}
+
+#lastModified {
+    color: #ffffff;
 }
