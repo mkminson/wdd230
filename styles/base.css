@@ -93,7 +93,7 @@ nav .active {
     font-weight: 700;
     font-size: 2rem;
     font-family: 'Roboto', sans-serif;
-    text-wrap: nowrap;
+    white-space: nowrap;
 }
 
 h2 {
