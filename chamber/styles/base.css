@@ -234,7 +234,7 @@ footer {
     font-weight: 700;
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
-    text-wrap: nowrap;
+    white-space: nowrap;
 }
 
 .tabernacle-label,
@@ -260,5 +260,5 @@ footer {
     font-weight: 700;
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
-    text-wrap: nowrap;
+    white-space: nowrap;
 }
