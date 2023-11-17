@@ -22,11 +22,6 @@ header h1 {
     color: #ffffff;
 }
 
-/*.hero img {
-    width: 100%;
-    height: auto;
-}*/
-
 nav {
     background-color: #a67bd6;
     margin: 0 auto;
@@ -122,8 +117,6 @@ main {
 main img {
     width: 100%;
     height: auto;
-    display: block;
-    grid-column: 1 / span 4;
 }
 
 h2 {
@@ -151,7 +144,7 @@ main #section1 p {
     transform: translate(-50%, -50%);
     color: black;
     text-align: center;
-    grid-column: 1/2;
+    /*grid-column: 1/2;*/
 }
 
 #section1 h2 {
@@ -162,7 +155,7 @@ main #section1 p {
     border-top-left-radius: 10px;
     text-align: center;
     margin: 20px;
-    grid-column: 1/2;
+    /*grid-column: 1/2;*/
 }
 
 h3 {
@@ -204,4 +197,68 @@ footer {
 
 #lastModified {
     color: #ffffff;
+}
+
+#discover-info ul li {
+    list-style-type: none;
+}
+
+.photo-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.capitol-label,
+.wells-label,
+.cob-label {
+    position: absolute;
+    top: 30px;
+    right: 20%;
+    background: radial-gradient(#fff, #004C8B);
+    border: 1px solid rgba(0, 0, 0, .5);
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 3rem #fff;
+    opacity: 0.75;
+    z-index: 1;
+}
+
+.capitol-label p,
+.wells-label p,
+.cob-label p {
+    margin: 0;
+    padding: .25rem;
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    text-wrap: nowrap;
+}
+
+.tabernacle-label,
+.mcintyre-label,
+.walker-label {
+    position: absolute;
+    top: 30px;
+    left: 20%;
+    background: radial-gradient(#fff, #4D423B);
+    border: 1px solid rgba(0, 0, 0, .5);
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 3rem #fff;
+    opacity: 0.75;
+    z-index: 1;
+}
+
+.tabernacle-label p,
+.mcintyre-label p,
+.walker-label p {
+    margin: 0;
+    padding: .25rem;
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    text-wrap: nowrap;
 }
