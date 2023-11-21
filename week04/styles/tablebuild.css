@@ -1,0 +1,43 @@
+:root {
+    --border: hsla(324, 79%, 50%);
+    --borderlight: hsla(324, 79%, 50%);
+}
+
+caption {
+    caption-side: bottom;
+}
+
+th {
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    padding: 7px 15px;
+}
+
+th:first-child {
+    background-color: rgba(0, 0, 0);
+    color: white;
+}
+
+
+tbody tr:nth-child(even) {
+    background-color: rgb(0, 0, 0, .5);
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(0, 0, 0, 0.25);
+}
+
+table {
+    margin: 30px auto;
+    border: thin solid var(--border);
+    border-collapse: collapse;
+}
+
+td {
+    padding: 7px 15px;
+    border: 2px solid var(--borderlight);
+}
+
+td {
+    text-align: center;
+}
