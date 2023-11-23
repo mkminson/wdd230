@@ -1,3 +1,10 @@
+:root {
+    --border-color: #999;
+    --font-family: 'Roboto', sans-serif;
+    --font-weight: 400;
+    --font-color: darkblue;
+}
+
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
 html {
     -webkit-text-size-adjust: 100%;
@@ -11,68 +18,11 @@ html {
     box-sizing: border-box;
 }
 
-
 /*----------- BODY --------------*/
 body {
     font-size: 16px;
-    font-family: Verdana, sans-serif;
-}
-
-
-/*----------- HEADER --------------*/
-header {
-    padding: .5rem 2%;
-    background-color: #ddd;
-}
-
-header h1 {
-    margin: 0;
-}
-
-header h2 {
-    margin: 0;
-    font-weight: normal;
-}
-
-/*----------- NAVIGATION --------------*/
-nav {
-    background-color: #666;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-nav ul li {
-    float: left;
-    width: 25%;
-}
-
-nav ul li a {
-    display: block;
-    background-color: #444;
-    color: #eee;
-    border-left: 1px solid #777;
-    padding: .5rem 0;
-    text-decoration: none;
-    font-size: .9rem;
-    text-align: center;
-}
-
-nav ul li:first-child a {
-    border-left: none;
-}
-
-nav ul li a:hover {
-    background-color: #eee;
-    color: #333;
-}
-
-nav ul li.active a {
-    background-color: #000;
-    color: #fff;
+    font-family: var(--font-family);
+    font-weight: var(--font-weight);
 }
 
 /*----------- MAIN --------------*/
@@ -82,25 +32,18 @@ main {
 }
 
 /*-------------- FORM --------------*/
-
 form fieldset {
     margin: 2rem;
-    border: 1px solid #445ba9;
+    border: 1px solid var(--border-color);
     border-radius: 10px;
     padding: .5rem 2%;
-}
-
-form legend {
-    color: #445ba9;
-    margin: 0 1rem;
-    padding: 0 .5rem;
 }
 
 form label.top,
 form div {
     display: block;
     padding-top: 1rem;
-    color: #9c2c13;
+    color: var(--font-color);
     font-size: .8rem;
 }
 
@@ -109,7 +52,7 @@ form label.top select {
     -webkit-appearance: none;
     display: block;
     font-size: 1rem;
-    border: solid 1px #999;
+    border: 1px solid var(--border-color);
     border-radius: 4px;
     padding: .75rem;
     color: #555;
@@ -118,15 +61,13 @@ form label.top select {
     background-color: #e3e3e3;
 }
 
-form label.sbs {
-    display: block;
-    padding: .75rem 0;
-    color: #555
+#rating {
+    margin-top: 15px;
 }
 
 form input.submitBtn {
     border: none;
-    background-color: #9c2c13;
+    background-color: #0857a1;
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
@@ -142,15 +83,6 @@ form label.top input:required {
 form label.top input:required:valid {
     border-left: green solid 6px;
 }
-
-/*----------- FOOTER --------------*/
-footer {
-    background-color: #ddd;
-    padding: .5rem 2%;
-    text-align: center;
-}
-
-
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
