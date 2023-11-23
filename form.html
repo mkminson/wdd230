@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michelle Minson - WDD230 - Web Frontend Development - Form</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development - Michelle Minson - form">
+    <meta name="author" content="Michelle Minson">
+    <meta property="og:title" content="Michelle Minson WDD230 Web Frontend Developmen form">
+    <meta property="og:type" content="Website">
+    <meta property="og:image"
+        content="https://www.pexels.com/photo/aerial-view-of-a-city-by-the-snowy-mountains-5972941/">
+    <meta property="og:url" content="https://mkminson.github.io/wdd230/">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
+    <link rel="stylesheet" href="week04/styles/base.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=Roboto:wght@100;400&display=swap"
+        rel="stylesheet">
+
+    <link rel="icon" href="favicon.ico">
+
+</head>
+
+<body>
+    <header>
+        <img src="images/profile-pic.webp" alt="Michelle Minson Profile" width="75" height="100">
+        <h1>Michelle Minson</h1>
+        <div id="mode">🕶️</div>
+    </header>
+    <nav>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="form.html">Form</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div id="formmessage"></div>
+
+        <form method="get" action="record.html">
+            <h2>Contact Us</h2>
+            <fieldset>
+                <label class="top">User Name*<input type="text" id="name" name="uname" required></label>
+
+
+                <label class="top">Password*<input type="password" id="pwd" name="pwd" required
+                        pattern="[A-Za-z0-9]{8,}" placeholder="Eight or more characters"></label>
+                <label class="top">Confirm Password<input type="password" id="pwd2" name="pwd" required
+                        pattern="[A-Za-z0-9]{8,}"></label>
+
+                <label class="top">Email*<input type="email" id="email" name="email" placeholder="someone@byui.edu"
+                        required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
+                        title="Please enter a valid email address."></label>
+
+                <div id="rating">
+                    <label for="r">Page Rating</label>
+                    <div id="rangevalue">0</div>
+                    <input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues">
+                    <datalist id="rangevalues">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </datalist>
+                </div>
+            </fieldset>
+            <input type="submit" value="Contact Us" class="submitBtn">
+        </form>
+    </main>
+    <footer>
+        <p class="name">
+            &copy; <span id="currentyear"></span>
+            &nbsp;Michelle Minson&nbsp;
+        </p>
+        <p class="state">Utah&nbsp;</p>
+
+        <p id="lastModified">
+            Last Modification:
+        </p>
+    </footer>
+
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/darkMode.js"></script>
+    <script src="scripts/hamburgerMenu.js"></script>
+    <script src="scripts/localStorage.js"></script>
+    <script src="scripts/form.js"></script>
+</body>
+
+</html>
