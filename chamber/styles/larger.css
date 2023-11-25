@@ -87,4 +87,26 @@
     .hover:hover {
         box-shadow: 0 0 50px #333;
     }
+
+    .form-main-container {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: auto;
+        grid-gap: 15px;
+        justify-content: center;
+    }
+
+    .benefits {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin: 0 auto;
+    }
+
+    form {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+    }
 }
