@@ -320,6 +320,22 @@ form label.top select {
     background-color: #e3e3e3;
 }
 
+form textarea.top {
+    display: block;
+    color: var(--font-color);
+    font-size: 1rem;
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: #e3e3e3;
+}
+
 form label.sbs {
     display: block;
     padding: .75rem 0;
