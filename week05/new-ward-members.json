@@ -1,0 +1,43 @@
+{
+    "familyName": "Smith",
+    "moveInDate": "January 30, 2012",
+    "numberOfRecords": 7,
+    "visitedByBishopric": true,
+    "FamilyMembers": [
+        {
+            "name": "Mark Smith",
+            "gender": "male",
+            "birthDate": "June 24, 1989"
+        },
+        {
+            "name": "Michelle Smith",
+            "gender": "female",
+            "birthDate": "November 27, 1991"
+        },
+        {
+            "name": "Adeena Smith",
+            "gender": "female",
+            "birthDate": "April 4, 2012"
+        },
+        {
+            "name": "Ethan Smith",
+            "gender": "male",
+            "birthDate": "March 24, 2014"
+        },
+        {
+            "name": "Crickett Smith",
+            "gender": "female",
+            "birthDate": "February 4, 2017"
+        },
+        {
+            "name": "Cameron Smith",
+            "gender": "male",
+            "birthDate": "January 21, 2019"
+        },
+        {
+            "name": "Lance Smith",
+            "gender": "male",
+            "birthDate": "January 21, 2019"
+        }
+    ]
+}
