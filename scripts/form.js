@@ -19,6 +19,25 @@ function checkSame() {
     }
 }
 
+const email = document.querySelector("#email");
+const emailPattern = /[a-zA-Z0-9._%+-]+@byui\.edu$/;
+
+email.addEventListener("focusout", checkPattern);
+
+function checkPattern() {
+    if (!emailPattern.test(email.value)) {
+        message.textContent = "Please enter a valid email address ending in @byui.edu.";
+        message.style.visibility = "show";
+        email.style.backgroundColor = "#fff0f3";
+        email.value = "";
+        email.focus();
+    } else {
+        message.style.display = "none";
+        email.style.backgroundColor = "#fff";
+        email.style.color = "#000";
+    }
+}
+
 const rangevalue = document.getElementById("rangevalue");
 const range = document.getElementById("r");
 
