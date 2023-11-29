@@ -6,16 +6,16 @@ pw2.addEventListener("focusout", checkSame);
 
 function checkSame() {
     if (pw1.value !== pw2.value) {
-        message.textContent = "❗Passwords DO NOT MATCH!";
+        message.textContent = "❗ Passwords DO NOT MATCH!";
         message.style.visibility = "show";
         pw2.style.backgroundColor = "#fff0f3";
         pw1.value = "";
         pw2.value = "";
-        pw2.focus();
+        pw1.focus();
     } else {
         message.style.display = "none";
         pw2.style.backgroundColor = "#fff";
-        pw2.style.color = "#000";
+        pw1.style.color = "#000";
     }
 }
 
