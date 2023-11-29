@@ -125,6 +125,7 @@ h3 {
     box-shadow: 10px 10px 50px grey;
     border-radius: 10px;
     margin: 20px;
+    text-align: center;
 }
 
 .card ul {
@@ -146,6 +147,23 @@ h3 {
 .card p {
     margin: 1rem;
     text-align: center;
+}
+
+figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    margin: 10px 5px;
+}
+
+#weather-icon {
+    margin-right: 8px;
+}
+
+#current-temp {
+    content: " - ";
+    margin: 0 8px;
 }
 
 .label {
