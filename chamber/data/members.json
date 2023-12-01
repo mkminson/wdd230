@@ -1,7 +1,6 @@
 {
     "Business Directory": [
         {
-            "business": "Amazon",
             "info": [
                 {
                     "name": "Amazon"
@@ -24,7 +23,6 @@
             ]
         },
         {
-            "business": "Goldman Sachs",
             "info": [
                 {
                     "name": "Goldman Sachs"
@@ -47,7 +45,6 @@
             ]
         },
         {
-            "business": "Wells Fargo",
             "info": [
                 {
                     "name": "Wells Fargo"
@@ -70,7 +67,6 @@
             ]
         },
         {
-            "business": "Teleperformance",
             "info": [
                 {
                     "name": "Teleperformance"
@@ -93,7 +89,6 @@
             ]
         },
         {
-            "business": "Target",
             "info": [
                 {
                     "name": "Target"
@@ -116,7 +111,6 @@
             ]
         },
         {
-            "business": "McDonald's",
             "info": [
                 {
                     "name": "McDonald's"
@@ -139,7 +133,6 @@
             ]
         },
         {
-            "business": "Fidelity",
             "info": [
                 {
                     "name": "Fidelity"
