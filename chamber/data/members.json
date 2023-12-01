@@ -1,158 +1,60 @@
 {
     "directory": [
         {
-            "info": [
-                {
-                    "logo": "images/amazon-logo.webp"
-                },
-                {
-                    "name": "Amazon"
-                },
-                {
-                    "address": "777 N 5600 W, Salt Lake City, UT 84116"
-                },
-                {
-                    "phone": "(800)362-3921"
-                },
-                {
-                    "url": "https://www.amazon.com/"
-                },
-                {
-                    "membership": "Gold"
-                }
-            ]
+            "logo": "images/amazon-logo.webp",
+            "name": "Amazon",
+            "address": "777 N 5600 W, Salt Lake City, UT 84116",
+            "phone": "(800)362-3921",
+            "url": "https://www.amazon.com/",
+            "membership": "Gold"
         },
         {
-            "info": [
-                {
-                    "logo": "images/gs-logo.webp"
-                },
-                {
-                    "name": "Goldman Sachs"
-                },
-                {
-                    "address": "222 S Main Street, Salt Lake City, UT 84101"
-                },
-                {
-                    "phone": "(801)884-1000"
-                },
-                {
-                    "url": "https://www.goldmansachs.com/"
-                },
-                {
-                    "membership": "Gold"
-                }
-            ]
+            "logo": "images/gs-logo.webp",
+            "name": "Goldman Sachs",
+            "address": "222 S Main Street, Salt Lake City, UT 84101",
+            "phone": "(801)884-1000",
+            "url": "https://www.goldmansachs.com/",
+            "membership": "Gold"
         },
         {
-            "info": [
-                {
-                    "logo": "images/wellsfargo-logo.webp"
-                },
-                {
-                    "name": "Wells Fargo"
-                },
-                {
-                    "address": "299 S Main Street Fl 1, Salt Lake City, UT 84111"
-                },
-                {
-                    "phone": "(385)415-8440"
-                },
-                {
-                    "url": "https://www.wellsfargo.com/"
-                },
-                {
-                    "membership": "Gold"
-                }
-            ]
+            "logo": "images/wellsfargo-logo.webp",
+            "name": "Wells Fargo",
+            "address": "299 S Main Street Fl 1, Salt Lake City, UT 84111",
+            "phone": "(385)415-8440",
+            "url": "https://www.wellsfargo.com/",
+            "membership": "Gold"
         },
         {
-            "info": [
-                {
-                    "logo": "images/telp-logo.webp"
-                },
-                {
-                    "name": "Teleperformance"
-                },
-                {
-                    "address": "1991 S 4650 W, Salt Lake City, UT 84104"
-                },
-                {
-                    "phone": "(877)877-3944"
-                },
-                {
-                    "url": "https://www.teleperformance.com/"
-                },
-                {
-                    "membership": "Silver"
-                }
-            ]
+            "logo": "images/telp-logo.webp",
+            "name": "Teleperformance",
+            "address": "1991 S 4650 W, Salt Lake City, UT 84104",
+            "phone": "(877)877-3944",
+            "url": "https://www.teleperformance.com/",
+            "membership": "Silver"
         },
         {
-            "info": [
-                {
-                    "logo": "images/target-logo.webp"
-                },
-                {
-                    "name": "Target"
-                },
-                {
-                    "address": "1110 S 300 W, Salt Lake City, UT 84101"
-                },
-                {
-                    "phone": "(801)401-9562"
-                },
-                {
-                    "url": "https://www.target.com/"
-                },
-                {
-                    "membership": "Silver"
-                }
-            ]
+            "logo": "images/target-logo.webp",
+            "name": "Target",
+            "address": "1110 S 300 W, Salt Lake City, UT 84101",
+            "phone": "(801)401-9562",
+            "url": "https://www.target.com/",
+            "membership": "Silver"
         },
         {
-            "info": [
-                {
-                    "logo": "images/mcdonalds-logo.webp"
-                },
-                {
-                    "name": "McDonald's"
-                },
-                {
-                    "address": "210 5th S, Salt Lake City, UT 84106"
-                },
-                {
-                    "phone": "(801)441-7557"
-                },
-                {
-                    "url": "https://www.mcdonalds.com/"
-                },
-                {
-                    "membership": "Silver"
-                }
-            ]
+            "logo": "images/mcdonalds-logo.webp",
+            "name": "McDonald's",
+            "address": "210 5th S, Salt Lake City, UT 84106",
+            "phone": "(801)441-7557",
+            "url": "https://www.mcdonalds.com/",
+            "membership": "Silver"
         },
         {
-            "info": [
-                {
-                    "logo": "images/fidelity-logo.webp"
-                },
-                {
-                    "name": "Fidelity"
-                },
-                {
-                    "address": "279 W South Temple St., Salt Lake City, UT 84101"
-                },
-                {
-                    "phone": "(800)544-5586"
-                },
-                {
-                    "url": "https://www.fidelity.com/"
-                },
-                {
-                    "membership": "Bronze"
-                }
-            ]
+            "logo": "images/fidelity-logo.webp",
+            "name": "Fidelity",
+            "address": "279 W South Temple St., Salt Lake City, UT 84101",
+            "phone": "(800)544-5586",
+            "url": "https://www.fidelity.com/",
+            "membership": "Bronze"
         }
     ]
 }
