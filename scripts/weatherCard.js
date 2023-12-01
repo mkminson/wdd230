@@ -8,7 +8,8 @@ async function apiFetch() {
         const response = await fetch(url);
         if (response.ok) {
             const data = await response.json();
-            console.log(data); //for testing purposes
+            //for testing purposes
+            //console.log(data); 
             //uncomment when ready
             displayResults(data);
         } else {

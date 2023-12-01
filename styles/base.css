@@ -147,6 +147,20 @@ h3 {
 .card p {
     margin: 1rem;
     text-align: center;
+    font-weight: 400;
+}
+
+ul {
+    display: inline;
+    text-align: left;
+    font-weight: 400;
+}
+
+li {
+    list-style-type: none;
+    text-align: left;
+    padding-left: 10px;
+    font-weight: 400;
 }
 
 figure {
