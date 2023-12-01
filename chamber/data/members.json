@@ -1,0 +1,165 @@
+{
+    "Business Directory": [
+        {
+            "business": "Amazon",
+            "info": [
+                {
+                    "name": "Amazon"
+                },
+                {
+                    "address": "777 N 5600 W, Salt Lake City, UT 84116"
+                },
+                {
+                    "phone number": "(800)362-3921"
+                },
+                {
+                    "url": "https://www.amazon.com/"
+                },
+                {
+                    "logo": "images/amazon-logo.webp"
+                },
+                {
+                    "membership": "Gold"
+                }
+            ]
+        },
+        {
+            "business": "Goldman Sachs",
+            "info": [
+                {
+                    "name": "Goldman Sachs"
+                },
+                {
+                    "address": "222 S Main Street, Salt Lake City, UT 84101"
+                },
+                {
+                    "phone number": "(801)884-1000"
+                },
+                {
+                    "url": "https://www.goldmansachs.com/"
+                },
+                {
+                    "logo": "images/gs-logo.webp"
+                },
+                {
+                    "membership": "Gold"
+                }
+            ]
+        },
+        {
+            "business": "Wells Fargo",
+            "info": [
+                {
+                    "name": "Wells Fargo"
+                },
+                {
+                    "address": "299 S Main Street Fl 1, Salt Lake City, UT 84111"
+                },
+                {
+                    "phone number": "(385)415-8440"
+                },
+                {
+                    "url": "https://www.wellsfargo.com/"
+                },
+                {
+                    "logo": ""
+                },
+                {
+                    "membership": "Gold"
+                }
+            ]
+        },
+        {
+            "business": "Teleperformance",
+            "info": [
+                {
+                    "name": "Teleperformance"
+                },
+                {
+                    "address": "1991 S 4650 W, Salt Lake City, UT 84104"
+                },
+                {
+                    "phone number": "(877)877-3944"
+                },
+                {
+                    "url": "https://www.teleperformance.com/"
+                },
+                {
+                    "logo": "images/telp-logo.webp"
+                },
+                {
+                    "membership": "Silver"
+                }
+            ]
+        },
+        {
+            "business": "Target",
+            "info": [
+                {
+                    "name": "Target"
+                },
+                {
+                    "address": "1110 S 300 W, Salt Lake City, UT 84101"
+                },
+                {
+                    "phone number": "(801)401-9562"
+                },
+                {
+                    "url": "https://www.target.com/"
+                },
+                {
+                    "logo": "images/target-logo.webp"
+                },
+                {
+                    "membership": "Silver"
+                }
+            ]
+        },
+        {
+            "business": "McDonald's",
+            "info": [
+                {
+                    "name": "McDonald's"
+                },
+                {
+                    "address": "210 5th S, Salt Lake City, UT 84106"
+                },
+                {
+                    "phone number": "(801)441-7557"
+                },
+                {
+                    "url": "https://www.mcdonalds.com/"
+                },
+                {
+                    "logo": "images/mcdonalds-logo.webp"
+                },
+                {
+                    "membership": "Silver"
+                }
+            ]
+        },
+        {
+            "business": "Fidelity",
+            "info": [
+                {
+                    "name": "Fidelity"
+                },
+                {
+                    "address": "279 W South Temple St., Salt Lake City, UT 84101"
+                },
+                {
+                    "phone number": "(800)544-5586"
+                },
+                {
+                    "url": "https://www.fidelity.com/"
+                },
+                {
+                    "logo": "images/fidelity-logo.webp"
+                },
+                {
+                    "membership": "Bronze"
+                }
+            ]
+        }
+    ]
+}
