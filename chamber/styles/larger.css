@@ -109,4 +109,24 @@
         max-width: 800px;
         margin: 0 auto;
     }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .list section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 2fr;
+        margin: 0;
+        padding: .25rem;
+    }
+
+    article.grid ul {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 15px;
+        align-items: center;
+        margin: 10px;
+    }
 }

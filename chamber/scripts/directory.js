@@ -20,48 +20,49 @@ function showList() {
 async function getBusinessData() {
     const response = await fetch(linksURL);
     const data = await response.json();
+
     displayBusinesses(data.directory);
 }
 
 getBusinessData();
 
 const displayBusinesses = (businesses) => {
+    let busList = document.createElement('ul');
+
     businesses.forEach((business) => {
-        let busList = document.createElement('ul');
+        //create elements to add to grid.article element
+        let members = document.createElement('section');
+        let logoImg = document.createElement('img');
+        let busName = document.createElement('li');
+        let busAdd = document.createElement('li');
+        let busPhone = document.createElement('li');
+        let linkAnchor = document.createElement('a');
 
-        business.info.forEach((item) => {
-            let listItem = document.createElement('li');
+        //build list
+        busName.textContent = business.name;
+        busAdd.textContent = business.address;
+        busPhone.textContent = business.phone;
 
-            // Access the property names correctly
-            if (item.name || item.address || item["phone number"] || item.url || item.logo || item.membership) {
-                // Check if the property is present before creating a list item
-                if (item.name) {
-                    listItem.textContent += `${item.name}`;
-                }
-                if (item.address) {
-                    listItem.textContent += ` | Address: ${item.address}`;
-                }
-                if (item["phone number"]) {
-                    listItem.textContent += ` | Phone: ${item["phone number"]}`;
-                }
-                if (item.url) {
-                    listItem.textContent += ` | URL: ${item.url}`;
-                }
-                if (item.membership) {
-                    listItem.textContent += ` | Membership: ${item.membership}`;
-                }
+        //set logo attributes
+        logoImg.setAttribute('src', `${baseURL}${business.logo}`);
+        logoImg.setAttribute('alt', `${business.name} Logo`);
+        logoImg.setAttribute('loading', 'lazy');
+        logoImg.setAttribute('width', '250');
+        logoImg.setAttribute('height', '250');
 
-                if (item.logo) {
-                    let logoImg = document.createElement('img');
-                    logoImg.src = `${baseURL}${item.logo}`;
-                    logoImg.alt = `${item.name} Logo`;
-                    listItem.appendChild(logoImg);
-                }
+        //set anchor attribute
+        linkAnchor.setAttribute('href', business.url);
+        linkAnchor.textContent = business.url;
 
-                busList.appendChild(listItem);
-            }
-        });
+        //append all the info to the article
+        members.appendChild(logoImg);
+        members.appendChild(busName);
+        members.appendChild(busAdd);
+        members.appendChild(busPhone);
+        members.appendChild(linkAnchor);
 
-        display.appendChild(busList);
+        busList.appendChild(members);
     });
+
+    display.appendChild(busList);
 }

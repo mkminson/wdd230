@@ -170,6 +170,8 @@ h3 {
     text-align: center;
 }
 
+
+
 #section6 {
     display: flex;
     justify-content: center;
@@ -380,4 +382,81 @@ form label.top input:required:valid {
 .thankyou {
     margin: 20px;
     font-weight: var(--font-weight);
+}
+
+.dirh2 {
+    background-color: #fff;
+}
+
+.menu {
+    margin: 1rem auto;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: .5rem;
+    background-color: rgba(166, 123, 214, 0.7);
+    text-align: center;
+}
+
+.menu button {
+    padding: 1rem;
+    font-weight: 700;
+    background-color: #eee;
+}
+
+article section {
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: .5rem;
+    background-color: white;
+    box-shadow: 0 0 10px #333;
+}
+
+.grid section {
+    display: flex;
+    flex-direction: column;
+    padding: .25rem;
+    text-align: center;
+    align-items: center;
+}
+
+.grid section>*:nth-child(2) {
+    display: none;
+}
+
+.grid img {
+    border: 1px solid #fff;
+    max-width: 100%;
+    height: auto;
+}
+
+.grid section>* {
+    margin: .1rem;
+}
+
+.list section {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: left;
+    border: none;
+    box-shadow: none;
+}
+
+.list section>* {
+    margin: 0 1rem;
+}
+
+.list section img {
+    display: none;
+}
+
+.list section:nth-child(even) {
+    background-color: rgba(166, 123, 214, 0.7);
+}
+
+article section li {
+    font-weight: 600;
+    list-style-type: none;
+    margin: 0;
+    max-width: 100%;
+    white-space: normal;
 }
