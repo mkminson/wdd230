@@ -35,6 +35,6 @@ const displayWeeks = (weeksData) => {
 
         // Append the section with the created elements
         weekNum.appendChild(weekList);
-        card.appendChild(weekNum);
+        cards.appendChild(weekNum);
     });
 };
