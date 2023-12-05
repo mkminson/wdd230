@@ -9,12 +9,27 @@ html {
     box-sizing: border-box;
 }
 
+.banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0 10px;
+    background-color: #a67bd6;
+    width: 100%;
+}
+
+#closeBannerBtn {
+    margin: 10px;
+}
+
 header {
     background-color: #613790;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    padding: 20px;
 }
 
 header img {
@@ -60,7 +75,7 @@ nav .active {
     background-color: #eee;
     color: #000;
     position: absolute;
-    top: 1rem;
+    top: 5rem;
     right: 1rem;
 }
 
@@ -133,32 +148,25 @@ h2 {
     text-align: center;
 }
 
-main #section1 h2 {
+#section1 h2 {
+    min-width: 250px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+main #section1 {
     position: absolute;
-    top: 35%;
+    top: 18rem;
     left: 25%;
     transform: translate(-50%, -50%);
-    color: black;
     text-align: center;
+    width: 50%;
+    color: black;
 }
 
 main #section1 p {
-    position: absolute;
-    top: 45%;
-    left: 25%;
-    transform: translate(-50%, -50%);
-    color: black;
-    text-align: center;
-}
-
-#section1 h2 {
-    min-width: 250px;
-    box-shadow: 10px 10px 50px grey;
-    border-radius: 10px;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    text-align: center;
-    margin: 20px;
+    margin-left: 10px;
+    font-weight: 600;
 }
 
 h3 {
@@ -170,12 +178,53 @@ h3 {
     text-align: center;
 }
 
+#home-info1,
+#home-info2 {
+    font-weight: 400;
+    margin-left: 10px;
+}
 
+#home-info1 ul {
+    padding-left: 20px;
+}
+
+h4 {
+    text-align: center;
+}
+
+figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    margin: 10px 5px;
+}
+
+#weather-icon {
+    max-width: 50px;
+    height: auto;
+    margin-right: 8px;
+}
+
+#current-temp {
+    content: " - ";
+    margin: 0 8px;
+}
+
+#forecast-container {
+    text-align: center;
+}
+
+#forecast-container p {
+    display: inline-block;
+    margin: 5px;
+}
 
 #section6 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10px;
 }
 
 .cta-button {
@@ -186,6 +235,8 @@ h3 {
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    width: 250px;
+    text-align: center;
 }
 
 .cta-button:hover {
