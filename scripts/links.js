@@ -5,8 +5,6 @@ const cards = document.querySelector('#cards');
 async function getLinks() {
     const response = await fetch(linksURL);
     const data = await response.json();
-    // remove this console.log line when everything's working
-    // console.log(data);
     displayWeeks(data);
 }
 
